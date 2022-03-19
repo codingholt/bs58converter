@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bs58": "^5.0.0"
-  }
+    "bs58": "^5.0.0",
+    "commander": "^9.1.0",
+    "inquirer": "^8.2.1"
+  },
+  "bin": {
+    "bs58": "./app.js"
+}
 }
